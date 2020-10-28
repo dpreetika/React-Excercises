@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.asterisk_input::after {
+  content:"   *"; 
+  color: #e32;
+  }
